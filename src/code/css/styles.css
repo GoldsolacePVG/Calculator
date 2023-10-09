@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: CalculatorFont;
+  src: url(../../fonts/Calculator.otf);
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  background: linear-gradient(50deg, #ddcf06, #212122, rgb(148, 30, 30));
+  background-size: auto;
+}
+
+h1{
+  font-family: CalculatorFont;
+  color: white;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+div{
+  text-align: center;
+}
+
+#calculator{
+  background-color: black;
+  width: 400px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 12%;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type = "text"]{
+  width: 90%;
+  height: 45px;
+  text-align: right;
+  font-family: CalculatorFont;
+  font-size: 18px;
+  padding: 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgb(48, 48, 48);
+  color: white;
+}
+
+input[type = "button"]{
+  width: 70px;
+  height: 50px;
+  font-size: 25px;
+  font-family: CalculatorFont;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(48, 48, 48);
+  color: white;
+}
+
+.wrapper{
+  margin-right: auto;
+  margin-left: auto;
+
+  max-width: 1920px;
+  max-height: 1080px;
+
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.extra-space{
+  margin-top: 15px;
+}

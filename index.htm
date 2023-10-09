@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta owner="GoldsolacePVG">
+    <meta author="Juliu-1 & GoldsolacePVG">
+    <meta name="Description" content="Web made by GoldsolacePVG & Juliu-1">
+    <meta name="Viewport" content="Width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" ; charset="UTF-8">
+    <meta name="keywords" content="">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="src/code/css/styles.css">
+  </head>
+  <body class="wrapper">
+    <!--Calculator container-->
+    <div id="calculator">
+      <h1>Standard Calculator</h1>
+      <input type="text" value="0" id="display" readonly>
+      <input type="button" value="%">
+      <input type="button" value="CE" onclick="CleanDisplay()">
+      <input type="button" value="C" onclick="CleanDisplay()">
+      <input type="button" value="&larr;">
+      <input type="button" value="1/x">
+      <input type="button" value="x²">
+      <input type="button" value="&radic;">
+      <input type="button" value="&divide;">
+      <input type="button" value="7" onclick="AddToDisplay('7')">
+      <input type="button" value="8" onclick="AddToDisplay('8')">
+      <input type="button" value="9" onclick="AddToDisplay('9')">
+      <input type="button" value="&times;">
+      <input type="button" value="4" onclick="AddToDisplay('4')">
+      <input type="button" value="5" onclick="AddToDisplay('5')">
+      <input type="button" value="6" onclick="AddToDisplay('6')">
+      <input type="button" value="-">
+      <input type="button" value="1" onclick="AddToDisplay('1')">
+      <input type="button" value="2" onclick="AddToDisplay('2')">
+      <input type="button" value="3" onclick="AddToDisplay('3')">
+      <input type="button" value="+">
+      <input type="button" value="&plusmn;">
+      <input type="button" value="0">
+      <input type="button" value=",">
+      <input type="button" value="=" style="background-color: #ddcf06;
+                                            color: black; 
+                                            border: #ddcf06;">
+      <div class="extra-space"></div>
+    </div>
+  </body>
+  <script src="src/code/javascript/javascript.js"></script>
+</html>
