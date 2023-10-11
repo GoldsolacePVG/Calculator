@@ -20,8 +20,8 @@
       <input type="button" value="CE" onclick="CleanDisplay()">
       <input type="button" value="C" onclick="CleanDisplay()">
       <input type="button" value="&larr;">
-      <input type="button" value="1/x">
-      <input type="button" value="x²">
+      <input type="button" value="1/x" onclick="DivideOne()">
+      <input type="button" value="x²" onclick="Elevate()">
       <input type="button" value="&radic;" onclick="RadicCalculation()">
       <input type="button" value="&divide;" onclick="AddToDisplay('/')">
       <input type="button" value="7" onclick="AddToDisplay(7)">
@@ -38,7 +38,7 @@
       <input type="button" value="+" onclick="AddToDisplay('+')">
       <input type="button" value="&plusmn;" onclick="AddToDisplay('-')">
       <input type="button" value="0" onclick="AddToDisplay(0)">
-      <input type="button" value=",">
+      <input type="button" value="," onclick="AddToDisplay('.')">
       <input type="button" value="=" onclick="Calculation()" 
                                      style="background-color: #ddcf06;
                                             color: black; 
